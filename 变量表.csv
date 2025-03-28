@@ -1166,6 +1166,7 @@ WTX_RET_Done,,,,
 _var_begin
 WTX_RET_Error,,,,
 _var_begin
+WTX_RET_ErrorID,,,,
 WTX_RET_Error_ID,,,,
 _var_begin
 WTX_CMD_En,,,,
@@ -1179,3 +1180,18 @@ _var_begin
 WTX_CMD_Error,,,,
 _var_begin
 WTX_CMD_ErrorID,,,,
+_var_begin
+iDILEDStates,,,,
+iLEDTestStates,,,,
+_var_begin
+iMBStates,,,,
+_var_begin
+TPR_WTX_IN,,,,
+_var_begin
+TPR_WTX_PT,,,,
+_var_begin
+TPR_WTX_R,,,,
+_var_begin
+TPR_WTX_Q,,,,
+_var_begin
+TPR_WTX_ET,,,,
