@@ -7,6 +7,7 @@ ROOT
 	FILE	SBR_ZIODD.ST
 	FILE	SBR_ZIODI.ST
 	FILE	SBR_ZIODO.ST
+	FILE	SBR_ZIOPW.ST
 	FOLDER	Zio_Cal
 		FILE	SBR_AICAL.ST
 		FILE	SBR_AOCAL.ST
@@ -17,6 +18,7 @@ ROOT
 		FILE	SBR_DDTEST.ST
 		FILE	SBR_DITEST.ST
 		FILE	SBR_DOTEST.ST
+		FILE	SBR_PWTest.ST
 FB
 ROOT
 	FILE	FB_600E_DO_LEVEL.FB
@@ -29,6 +31,7 @@ ROOT
 	FILE	FB_ESI_Read.FB
 	FILE	FB_ESI_Update.FB
 	FILE	FB_ESI_Write.FB
+	FILE	FB_GET_CODE.FB
 	FILE	FB_LED_MAN.FB
 	FILE	FB_LED_WTX.FB
 FC
@@ -36,9 +39,12 @@ ROOT
 	FILE	DataLogBufSet.FC
 	FILE	adc_data_set.FC
 	FILE	ao_ref_val_set.FC
+	FILE	led_run_blink.FC
+	FILE	led_stp_blink.FC
 	FILE	mb_cmd_buf_get.FC
 	FILE	mb_cmd_buf_set.FC
 	FILE	result_error_get.FC
+	FILE	result_reset.FC
 	FILE	timer_disable.FC
 	FILE	timer_reset.FC
 	FILE	uid_get.FC
