@@ -23,28 +23,35 @@ FB
 ROOT
 	FILE	FB_600E_DO_LEVEL.FB
 	FILE	FB_600E_DO_PWM.FB
-	FILE	FB_AICalRefPnt.FB
-	FILE	FB_AITestPnt.FB
-	FILE	FB_AOCalRefPnt.FB
-	FILE	FB_AOTestPnt.FB
-	FILE	FB_DataLog.FB
-	FILE	FB_ESI_Read.FB
-	FILE	FB_ESI_Update.FB
-	FILE	FB_ESI_Write.FB
+	FILE	FB_ADC_SAMPLE.FB
+	FILE	FB_AI_CAL_REF_PNT.FB
+	FILE	FB_AI_SAMPLE.FB
+	FILE	FB_AI_TEST_PNT.FB
+	FILE	FB_AO_CAL_REF_PNT.FB
+	FILE	FB_AO_TEST_PNT.FB
+	FILE	FB_DATA_LOG.FB
+	FILE	FB_ESI_RD.FB
+	FILE	FB_ESI_UPDATE.FB
+	FILE	FB_ESI_WR.FB
 	FILE	FB_GET_CODE.FB
 	FILE	FB_LED_MAN.FB
 	FILE	FB_LED_WTX.FB
 FC
 ROOT
 	FILE	DataLogBufSet.FC
+	FILE	adc_config.FC
 	FILE	adc_data_set.FC
 	FILE	ao_ref_val_set.FC
-	FILE	led_run_blink.FC
-	FILE	led_stp_blink.FC
+	FILE	led_run_blk.FC
+	FILE	led_stp_blk.FC
+	FILE	limit_switch_check.FC
+	FILE	lmsw_btn_handler.FC
 	FILE	mb_cmd_buf_get.FC
 	FILE	mb_cmd_buf_set.FC
 	FILE	result_error_get.FC
 	FILE	result_reset.FC
+	FILE	serial_number_check.FC
+	FILE	testset_check.FC
 	FILE	timer_disable.FC
 	FILE	timer_reset.FC
 	FILE	uid_get.FC
