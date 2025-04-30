@@ -182,8 +182,10 @@ _var_begin
 iZioDOSel,,,,
 _var_begin
 bDOTestFailed,,,,
+xDOTestFailed,,,,
 _var_begin
 bDOTestSuccess,,,,
+xDOTestSuccess,,,,
 _var_begin
 iBarCnt,,,,
 _var_begin
@@ -212,8 +214,10 @@ _var_begin
 iDITestState,,,,
 _var_begin
 bDITestSuccess,,,,
+xDITestSuccess,,,,
 _var_begin
 bDITestFailed,,,,
+xDITestFailed,,,,
 _var_begin
 iZioDISel,,,,
 _var_begin
@@ -603,6 +607,12 @@ _var_begin
 var_1,,,,
 xPower_MD2,,,,
 xRelay,,,,
+_var_begin
+var_1,,,,
+xPower_MD3,,,,
+_var_begin
+var_1,,,,
+xPower_MD4,,,,
 _var_begin
 var_1,,,,
 xSW_AICal,,,,
@@ -1373,3 +1383,7 @@ _var_begin
 AI_SMP_EN,,,,
 _var_begin
 AI_SMP_RET,,,,
+_var_begin
+diDITime,,,,
+_var_begin
+xShow_UpdateWarnWin,,,,
