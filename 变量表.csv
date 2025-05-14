@@ -871,6 +871,7 @@ fAOCode_Aux[4],,,,
 fAOCode_Aux[5],,,,
 fAOCode_Aux[6],,,,
 fAOCode_Aux[7],,,,
+iAOCode_Aux,,,,
 _var_begin
 iAICalPntRet,,,,
 xAICalPntRet,,,,
@@ -1437,4 +1438,6 @@ TPR16_PT,,,,
 _var_begin
 TPR16_Rst,,,,
 _var_begin
+TPR16_Q,,,,
 _var_begin
+TPR16_ET,,,,
