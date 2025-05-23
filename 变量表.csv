@@ -1428,8 +1428,6 @@ AI_SMP_RET5,,,,
 _var_begin
 diDITime,,,,
 _var_begin
-xShow_UpdateWarnWin,,,,
-_var_begin
 diDOTime,,,,
 _var_begin
 TPR16_En,,,,
@@ -1470,3 +1468,7 @@ xWinddow_WaitCam,,,,
 xWindow_WaitCam,,,,
 _var_begin
 xWindow_Startup,,,,
+_var_begin
+_var_begin
+_var_begin
+_var_begin
