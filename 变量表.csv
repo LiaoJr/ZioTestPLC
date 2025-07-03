@@ -1504,3 +1504,7 @@ fValLogM12,,,,
 _var_begin
 fValLog12,,,,
 fValLogAO12,,,,
+_var_begin
+xSerial,,,,
+xSerialNo,,,,
+xSerialNoInputEn,,,,

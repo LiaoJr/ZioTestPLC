@@ -1,6 +1,6 @@
 #变量导出文件（汇川）
-#2025-06-18 18:04:23
-#AutoShop:EasyMonitor{EB94048B-7C2C-4d7a-A080-A272E8B0B981}
+#2025-06-25 14:03:32
+#AutoShop:EasyMonitor{3C93A664-02CA-451d-8E9E-B35DC289BAC3}
 #列A:名称
 #列B:连接（如果为空，则是内部连接）
 #列C:数据类型（取决于连接，有以下几种类型：Int16 、UInt16、Int32、UInt32、Float、Double、Bool、String、WString、DateTime，类型区分大小写。）
@@ -1713,3 +1713,4 @@
 "fValLogAO3d3",,"Float","4","1","UW 2103BB0","100ms","1",,,,"","1"
 "fValLogAOM12",,"Float","4","1","UW 2103C40","100ms","1",,,,"","1"
 "fValLogAO12",,"Float","4","1","UW 2104100","100ms","1",,,,"","1"
+"xSerialNoInputEn",,"Bool","1","1","UB 21008A3","100ms","1",,,,"","1"
